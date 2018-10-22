@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b233b60-9770-47bd-aff7-5670e61d4fec" name="Default Changelist" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/karim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/img/demo-user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/css/dashboard.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/css/tabler.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/css/tabler.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/fonts/feather/feather-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/fonts/feather/feather-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/fonts/feather/feather-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/fonts/feather/feather-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/android-browser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/aol-explorer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/blackberry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/camino.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/chrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/chromium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/dolphin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/edge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/firefox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/maxthon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/mozilla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/netscape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/opera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/safari.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/sleipnir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/uc-browser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/browsers/vivaldi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/crypto-currencies/bitcoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/crypto-currencies/cardano.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/crypto-currencies/dash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/crypto-currencies/eos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/crypto-currencies/ethereum.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/crypto-currencies/litecoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/crypto-currencies/nem.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/crypto-currencies/ripple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gb-nir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/un.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/flags/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/2checkout-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/2checkout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/alipay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/alipay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/amazon-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/amazon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/americanexpress-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/americanexpress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/applepay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/applepay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/bancontact-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/bancontact.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/bitcoin-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/bitcoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/bitpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/bitpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/cirrus-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/cirrus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/clickandbuy-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/clickandbuy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/coinkite-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/coinkite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/dinersclub-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/dinersclub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/directdebit-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/directdebit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/discover-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/discover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/dwolla-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/dwolla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ebay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ebay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/eway-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/eway.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/giropay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/giropay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/googlewallet-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/googlewallet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ingenico-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ingenico.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/jcb-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/jcb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/klarna-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/klarna.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/laser-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/laser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/maestro-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/maestro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/mastercard-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/mastercard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/monero-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/monero.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/neteller-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/neteller.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ogone-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ogone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/okpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/okpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/paybox-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/paybox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/paymill-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/paymill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/payone-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/payone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/payoneer-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/payoneer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/paypal-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/paypal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/paysafecard-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/paysafecard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/payu-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/payu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/payza-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/payza.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ripple-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ripple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/sage-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/sage.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/sepa-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/sepa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/shopify-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/shopify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/skrill-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/skrill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/solo-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/solo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/square-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/stripe-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/stripe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/switch-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/switch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ukash-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/ukash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/unionpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/unionpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/verifone-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/verifone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/verisign-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/verisign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/visa-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/visa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/webmoney-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/webmoney.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/westernunion-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/westernunion.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/worldpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/images/payments/worldpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/require.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/circle-progress.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/jquery-3.2.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/jquery-jvectormap-2.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/jquery-jvectormap-de-merc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/jquery-jvectormap-world-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/js/vendors/selectize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/charts-c3/js/c3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/charts-c3/js/d3.v3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/charts-c3/plugin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/charts-c3/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/datetimepicker/plugin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/datetimepicker/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/fullcalendar/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/fullcalendar/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/fullcalendar/plugin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/fullcalendar/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/gijgo/js/gijgo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/gijgo/plugin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/gijgo/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/themify/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/themify/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/themify/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/themify/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/iconfonts/plugin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/input-mask/js/jquery.mask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/input-mask/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/maps-google/plugin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/maps-google/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/prismjs/js/prism.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/prismjs/plugin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tabler/plugins/prismjs/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/StudentFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EventSubscriber/LocaleSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CertificateRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/StudentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/StudyLevelRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/elements/footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/elements/header.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/elements/navbar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page/home.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/actions.fr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/messages.fr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/student.fr.xlf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cert.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/public/tabler/js/vendors/moment-with-locales.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cert@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cert@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cert@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cert: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1642534113">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="80" />
+          <entry key="css" value="73" />
+          <entry key="env" value="95" />
+          <entry key="js" value="135" />
+          <entry key="php" value="729" />
+          <entry key="twig" value="2014" />
+          <entry key="txt" value="23" />
+          <entry key="xlf" value="272" />
+          <entry key="yaml" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key=".env file" value="95" />
+          <entry key="CSS" value="73" />
+          <entry key="JavaScript" value="135" />
+          <entry key="PHP" value="729" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Scratch" value="80" />
+          <entry key="Twig" value="2014" />
+          <entry key="XML" value="272" />
+          <entry key="YAML" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="admin" value="1" />
+          <entry key="css" value="10" />
+          <entry key="env" value="3" />
+          <entry key="gitignore" value="3" />
+          <entry key="js" value="33" />
+          <entry key="page" value="1" />
+          <entry key="php" value="46" />
+          <entry key="postgres" value="1" />
+          <entry key="rnc" value="1" />
+          <entry key="sql" value="2" />
+          <entry key="student" value="1" />
+          <entry key="study_level" value="1" />
+          <entry key="twig" value="38" />
+          <entry key="xlf" value="9" />
+          <entry key="yaml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key=".env file" value="3" />
+          <entry key="CSS" value="10" />
+          <entry key="Database Element" value="3" />
+          <entry key="JavaScript" value="33" />
+          <entry key="PHP" value="46" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SQL" value="2" />
+          <entry key="Scratch" value="2" />
+          <entry key="Twig" value="38" />
+          <entry key="XML" value="6" />
+          <entry key="YAML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/student/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/student/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="31" column="154" selection-start-line="31" selection-start-column="154" selection-end-line="31" selection-end-column="154" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/StudentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="e#34#57#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/translations/student.fr.xlf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/student/new.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="26" column="103" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/translations/actions.fr.xlf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ApiSubresource</find>
+      <find>assets/</find>
+      <find>page</find>
+      <find>className</find>
+      <find>gj.</find>
+      <find>Add new</find>
+      <find>add</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>tabler/</replace>
+      <replace>class</replace>
+      <replace>Edit</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/elements/footer.html.twig" />
+        <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/Certificate.php" />
+        <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
+        <option value="$PROJECT_DIR$/src/Controller/PageController.php" />
+        <option value="$PROJECT_DIR$/templates/page/home.html.twig" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/StudentFixtures.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20181019010853.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20181020213957.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20181020214444.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20181021003931.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20181021004320.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20181021004539.php" />
+        <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/config/bundles.php" />
+        <option value="$PROJECT_DIR$/src/Repository/PageRepository.php" />
+        <option value="$PROJECT_DIR$/public/app/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/Repository/StudyLevelRepository.php" />
+        <option value="$PROJECT_DIR$/src/Entity/StudyLevel.php" />
+        <option value="$PROJECT_DIR$/public/tabler/js/vendors/gijgo.min.js" />
+        <option value="$PROJECT_DIR$/public/tabler/plugins/gijgo/js/gijgo.min.js" />
+        <option value="$PROJECT_DIR$/public/app/main.js" />
+        <option value="$PROJECT_DIR$/public/tabler/plugins/gijgo/plugin.js" />
+        <option value="$PROJECT_DIR$/public/tabler/plugins/gijgo/plugin.css" />
+        <option value="$PROJECT_DIR$/public/tabler/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js" />
+        <option value="$PROJECT_DIR$/public/tabler/js/vendors/mm.js" />
+        <option value="$PROJECT_DIR$/public/tabler/js/vendors/moment-with-locales.min.js" />
+        <option value="$PROJECT_DIR$/public/tabler/plugins/datetimepicker/plugin.js" />
+        <option value="$PROJECT_DIR$/public/tabler/js/dashboard.js" />
+        <option value="$PROJECT_DIR$/public/app/js/main.js" />
+        <option value="$PROJECT_DIR$/public/tabler/plugins/datetimepicker/plugin.css" />
+        <option value="$PROJECT_DIR$/templates/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/Student.php" />
+        <option value="$PROJECT_DIR$/src/Repository/StudentRepository.php" />
+        <option value="$PROJECT_DIR$/templates/student/edit.html.twig" />
+        <option value="$PROJECT_DIR$/templates/elements/header.html.twig" />
+        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
+        <option value="$PROJECT_DIR$/translations/messages.fr.xlf" />
+        <option value="$PROJECT_DIR$/src/Form/StudentType.php" />
+        <option value="$PROJECT_DIR$/templates/student/_delete_form.html.twig" />
+        <option value="$PROJECT_DIR$/src/EventSubscriber/LocaleSubscriber.php" />
+        <option value="$PROJECT_DIR$/templates/elements/navbar.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/StudentController.php" />
+        <option value="$PROJECT_DIR$/templates/student/new.html.twig" />
+        <option value="$PROJECT_DIR$/translations/actions.fr.xlf" />
+        <option value="$PROJECT_DIR$/templates/student/index.html.twig" />
+        <option value="$PROJECT_DIR$/translations/student.fr.xlf" />
+        <option value="$PROJECT_DIR$/templates/student/show.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/templates/tabler/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/panther" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/vendor/white-october/pagerfanta-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="170" />
+    <option name="y" value="60" />
+    <option name="width" value="1024" />
+    <option name="height" value="549" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Php Inspections (EA Extended)PHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Probable bugsPhp Inspections (EA Extended)PHP</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+              <item name="translations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb&#10;postgresql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/app/js" />
+      <recent name="$PROJECT_DIR$/public/app" />
+      <recent name="$PROJECT_DIR$/public/tabler/plugins/gijgo" />
+      <recent name="$PROJECT_DIR$/public/tabler/plugins/gijgo/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/app/img" />
+      <recent name="$PROJECT_DIR$/public/tabler/plugins/datetimepicker" />
+      <recent name="$PROJECT_DIR$/public/tabler/plugins/input-mask" />
+      <recent name="$PROJECT_DIR$/public/tabler/plugins/gijgo" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b233b60-9770-47bd-aff7-5670e61d4fec" name="Default Changelist" comment="" />
+      <created>1539565849121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539565849121</updated>
+      <workItem from="1539565858138" duration="2889000" />
+      <workItem from="1539906914152" duration="8901000" />
+      <workItem from="1540057411566" duration="12605000" />
+      <workItem from="1540117904476" duration="25928000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1539566496836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539566496836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50323000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.20717423" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32977098" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.31755725" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32977098" />
+      <window_info anchor="right" id="Database" order="0" weight="0.34040996" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20717423" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32977098" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.31755725" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32977098" />
+      <window_info anchor="right" id="Database" order="0" weight="0.34040996" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181021004320.php" />
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181021004539.php" />
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181021005519.php" />
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/StudentFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/PageRepository.php" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/PageController.php" />
+    <entry file="file://$PROJECT_DIR$/public/app/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/StudyLevel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/StudyLevelRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#34#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/fullcalendar/js/fullcalendar.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/fullcalendar/plugin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1449" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/gijgo/plugin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret column="43580" selection-start-column="43580" selection-end-column="43580" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/charts-c3/plugin.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/charts-c3/plugin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/fullcalendar/plugin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/input-mask/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/gijgo/js/gijgo.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret column="162573" selection-start-column="162573" selection-end-column="162573" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/js/require.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/gijgo/plugin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret column="41324" selection-start-column="41324" selection-end-column="41324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/gijgo/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/js/vendors/moment-with-locales.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret column="1140" selection-start-column="1140" selection-end-column="1140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/js/core.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5838">
+          <caret column="38264" selection-start-column="38264" selection-end-column="38264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/datetimepicker/plugin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/plugins/datetimepicker/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/js/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tabler/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/elements/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="313" column="5" selection-start-line="313" selection-start-column="5" selection-end-line="313" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/StudentRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#34#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/elements/navbar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="29" column="23" selection-start-line="29" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/StudentType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#28#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventSubscriber/LocaleSubscriber.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#102#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/_delete_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/messages.fr.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/elements/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/StudentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#34#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/actions.fr.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/student.fr.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" column="103" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" column="154" selection-start-line="31" selection-start-column="154" selection-end-line="31" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

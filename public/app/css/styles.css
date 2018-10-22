@@ -1,0 +1,17 @@
+/* ------------------------> Global styles */
+.form-btn{
+    display: inline;
+}
+.card-footer .pagination {
+    float: right;
+    margin-bottom: 0;
+}
+.card-header-tabs {
+    line-height: inherit;
+}
+.card-tab {
+    padding: 0;
+}
+.card-tab .tab-pane.container{
+    padding: 0;
+}

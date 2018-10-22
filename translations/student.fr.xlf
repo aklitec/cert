@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+
+            <!-- Menus -->
+            <trans-unit id="student.index.title">
+                <source>student.index.title</source>
+                <target>Liste des étudiants</target>
+            </trans-unit>
+            <trans-unit id="student.new.title">
+                <source>student.new.title</source>
+                <target>Ajouter un étudiant</target>
+            </trans-unit>
+            <trans-unit id="student.edit.title">
+                <source>student.edit.title</source>
+                <target>Editer un étudiant</target>
+            </trans-unit>
+
+            <!-- Forms -->
+            <trans-unit id="Code">
+                <source>Code</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="Name">
+                <source>Name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="First name">
+                <source>First name</source>
+                <target>Prénom</target>
+            </trans-unit>
+            <trans-unit id="Last name">
+                <source>Last name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="Cne">
+                <source>Cne</source>
+                <target>CNE</target>
+            </trans-unit>
+            <trans-unit id="Birth place">
+                <source>Birth place</source>
+                <target>Lieu de naissance</target>
+            </trans-unit>
+            <trans-unit id="Birth date">
+                <source>Birth date</source>
+                <target>Date de naissance</target>
+            </trans-unit>
+            <trans-unit id="Study level">
+                <source>Study level</source>
+                <target>Niveau d'étude</target>
+            </trans-unit>
+            <trans-unit id="Stop date">
+                <source>Stop date</source>
+                <target>Date d'arrêt</target>
+            </trans-unit>
+            <trans-unit id="Comments">
+                <source>Comments</source>
+                <target>Commentaires</target>
+            </trans-unit>
+            <trans-unit id="CreatedAt">
+                <source>CreatedAt</source>
+                <target>Date de création</target>
+            </trans-unit>
+            <trans-unit id="UpdatedAt">
+                <source>UpdatedAt</source>
+                <target>Date de mise à jour</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

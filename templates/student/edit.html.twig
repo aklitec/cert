@@ -1,0 +1,68 @@
+{% extends 'layout.html.twig' %}
+
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+
+{% block title %}Edit student{% endblock %}
+
+{% block pageHeader %}
+    <div class="page-header">
+        <h1 class="page-title">
+            Edit student
+        </h1>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="row col-12">
+
+        <div class="card">
+            {{ form_start(form) }}
+
+            <!-- Card Header -->
+            <div class="card-header">
+                <h3 class="card-title">Edit student</h3>
+                <div class="card-options">
+                    <a href="#" class="btn btn-sm btn-gray-dark mr-2"><i class="fe fe-pocket"></i> bulk</a>
+                </div>
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body">
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">{{ form_row(form.code) }}</div>
+                    <div class="col-md-6 col-sm-12">{{ form_row(form.cne) }}</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">{{ form_row(form.firstName) }}</div>
+                    <div class="col-md-6 col-sm-12">{{ form_row(form.lastName) }}</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">{{ form_row(form.birthPlace) }}</div>
+                    <div class="col-md-6 col-sm-12">{{ form_row(form.birthDate) }}</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">{{ form_row(form.studyLevel) }}</div>
+                    <div class="col-md-6 col-sm-12">{{ form_row(form.stopDate) }}</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12  col-sm-12">{{ form_row(form.comments) }}</div>
+                </div>
+            </div>
+
+            <!-- Card Footer -->
+            <div class="card-footer">
+                <div class="d-flex">
+                    <a href="{{ path('student_index') }}" class="btn btn-link">Cancel</a>
+                    <button type="submit" class="btn btn-primary ml-auto">save</button>
+                </div>
+            </div>
+
+            {{ form_end(form) }}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,115 @@
+{% extends 'layout.html.twig' %}
+
+{% trans_default_domain 'student' %}
+
+{% block title %} {{ 'student.index.title' | trans }} {% endblock %}
+
+{% block pageHeader %}
+    <div class="page-header">
+        <h1 class="page-title">
+            {{ 'student.index.title' | trans }}
+        </h1>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="row col-12">
+
+        <!-- Search card -->
+        <div class="card">
+            <form action="" class="card-body">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="input-icon">
+                            <span class="input-icon-addon"><i class="fe fe-user"></i></span>
+                            <input class="form-control" placeholder="Username" type="text">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="input-icon">
+                            <span class="input-icon-addon"><i class="fe fe-user"></i></span>
+                            <input class="form-control" placeholder="Username" type="text">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="input-icon">
+                            <span class="input-icon-addon"><i class="fe fe-user"></i></span>
+                            <input class="form-control" placeholder="Username" type="text">
+                        </div>
+                    </div>
+                    <div class="col-2 text-right">
+                        <button type="submit" class="btn btn-space btn-primary">{{'search'|trans({},'actions')}}</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- List card -->
+        <div class="card">
+
+            <div class="card-header">
+                <h3 class="card-title">{{ 'student.index.title' | trans }}</h3>
+                <div class="card-options">
+                    <a href="{{ path('student_new') }}" class="btn btn-primary">
+                        <i class="fe fe-plus"></i> {{'add'|trans({},'actions')}}
+                    </a>
+                    <a href="#" class="btn btn-secondary btn ml-2"> {{'export'|trans({},'actions')}}</a>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="table-responsive">
+
+
+                    <table class="table card-table table-striped table-vcenter">
+                        <thead>
+                        <tr>
+                            <th>{{ 'Code'|trans }}</th>
+                            <th>{{ 'Name'|trans }}</th>
+                            <th>{{ 'Cne'|trans }}</th>
+                            <th>{{ 'Birth place'|trans }}</th>
+                            <th>{{ 'Study level'|trans }}</th>
+                            <th>{{ 'Stop date'|trans }}</th>
+                            <th style="width: 20rem;">{{ 'actions'|trans({},'actions') }}</t>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for student in students %}
+                            <tr>
+                                <td><a href="{{ path('student_show', {'id': student.id}) }}">{{ student.code }}</a></td>
+                                <td>{{ student.firstName ~ ' ' ~ student.lastName }}</td>
+                                <td>{{ student.cne }}</td>
+                                <td>{{ student.birthPlace }}</td>
+                                <td>{{ student.studyLevel.name }}</td>
+                                <td>{{ student.stopDate ? student.stopDate|date('Y-m-d') : '' }}</td>
+                                <td>
+                                    <a href="{{ path('student_show', {'id': student.id}) }}" class="btn btn-sm btn-primary"><i class="fe fe-eye"></i> {{'show'|trans({},'actions')}}</a>
+                                    <a href="{{ path('student_edit', {'id': student.id}) }}" class="btn btn-sm btn-warning"><i class="fe fe-edit"></i> {{'edit'|trans({},'actions')}}</a>
+                                    {{ include('student/_delete_form.html.twig') }}
+                                </td>
+                            </tr>
+                        {% else %}
+                            <tr>
+                                <td colspan="14">No records found</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            {% if students.haveToPaginate %}
+            <div class="card-footer text-right">
+                {{
+                    pagerfanta(students, 'twitter_bootstrap4_translated', {
+                        routeName: 'student_index_paginated',
+                        routeParams: app.request.query.all
+                    })
+                }}
+            </div>
+            {% endif %}
+
+        </div>
+    </div>
+{% endblock %}

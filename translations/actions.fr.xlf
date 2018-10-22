@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+
+            <trans-unit id="actions">
+                <source>actions</source>
+                <target>Actions</target>
+            </trans-unit>
+
+            <trans-unit id="add">
+                <source>add</source>
+                <target>Ajouter</target>
+            </trans-unit>
+            <trans-unit id="edit">
+                <source>edit</source>
+                <target>Modifier</target>
+            </trans-unit>
+            <trans-unit id="show">
+                <source>show</source>
+                <target>Afficher</target>
+            </trans-unit>
+            <trans-unit id="delete">
+                <source>delete</source>
+                <target>Supprimer</target>
+            </trans-unit>
+            <trans-unit id="export">
+                <source>export</source>
+                <target>Exporter</target>
+            </trans-unit>
+            <trans-unit id="print">
+                <source>print</source>
+                <target>Imprimer</target>
+            </trans-unit>
+            <trans-unit id="save">
+                <source>save</source>
+                <target>Valider</target>
+            </trans-unit>
+            <trans-unit id="cancel">
+                <source>cancel</source>
+                <target>Annuler</target>
+            </trans-unit>
+            <trans-unit id="back">
+                <source>back</source>
+                <target>Retourner à la liste</target>
+            </trans-unit>
+            <trans-unit id="search">
+                <source>search</source>
+                <target>Chercher</target>
+            </trans-unit>
+            <trans-unit id="bulk">
+                <source>bulk</source>
+                <target>En vrac</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}StudyLevel index{% endblock %}
+
+{% block body %}
+    <h1>StudyLevel index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for study_level in study_levels %}
+            <tr>
+                <td>{{ study_level.id }}</td>
+                <td>{{ study_level.name }}</td>
+                <td>
+                    <a href="{{ path('study_level_show', {'id': study_level.id}) }}">show</a>
+                    <a href="{{ path('study_level_edit', {'id': study_level.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="3">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('study_level_new') }}">Create new</a>
+{% endblock %}
