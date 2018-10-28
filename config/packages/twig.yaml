@@ -7,3 +7,4 @@ twig:
     globals:
         app_name: Student archive
         app_version: 0.0.1
+        pathToWeb: "%kernel.project_dir%"
