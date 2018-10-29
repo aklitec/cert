@@ -88,6 +88,29 @@ class StudentController extends AbstractController
     }
 
     /**
+     * @Route("/{id}/print", name="student_print", methods="GET|POST")
+     * @param Request $request
+     * @param Student $student
+     * @return Response
+     */
+    public function print(Request $request, Student $student): Response
+    {
+        $form = $this->createForm(StudentType::class, $student);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $this->getDoctrine()->getManager()->flush();
+
+            return $this->redirectToRoute('student_show', ['id' => $student->getId()]);
+        }
+
+        return $this->render('student/print.html.twig', [
+            'student' => $student,
+            'form' => $form->createView(),
+        ]);
+    }
+
+    /**
      * @Route("/{id}", name="student_delete", methods="DELETE")
      * @param Request $request
      * @param Student $student

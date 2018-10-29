@@ -1,0 +1,44 @@
+{% extends 'layout.html.twig' %}
+{% trans_default_domain 'student' %}
+{% block title %}Student's infos {% endblock %}
+
+{% block pageHeader %}
+    <div class="page-header">
+        <h1 class="page-title">
+            prepare the student's certificate for printing ....
+        </h1>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="row col-12">
+
+        <div class="card">
+
+            <!-- Card Header -->
+            <div class="card-header">
+                <h3 class="card-title">Print student's school certificate </h3>
+                <div class="card-options">
+                    <a href="#" class="btn btn-sm btn-gray-dark mr-2"><i class="fe fe-pocket"></i> bulk</a>
+                </div>
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body">
+                <p>
+                    je suis le president de lycée ibn batota  que monsieur à {{ student.firstName }}
+                    reçu une certificate de scholariée.
+                </p>
+            </div>
+
+            <!-- Card Footer -->
+            <div class="card-footer">
+                <div class="d-flex">
+                    <a href="{{ path('student_index') }}" class="btn btn-link">Cancel</a>
+                    <a href="{{ path('example_print',{'id':student.id})}}" class="btn btn-primary ml-auto">Print</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

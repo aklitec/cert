@@ -28,7 +28,7 @@
                     </li>
                 </ul>
                 <div class="card-options">
-                    <a href="{{ path('student_edit', {'id': student.id}) }}" class="btn btn-sm btn-dark mr-2"><i class="fe fe-printer"></i> {{'print'|trans({},'actions')}}</a>
+                    <a href="{{ path('student_print', {'id': student.id}) }}" class="btn btn-sm btn-dark mr-2"><i class="fe fe-printer"></i> {{'print'|trans({},'actions')}}</a>
                     <a href="{{ path('student_edit', {'id': student.id}) }}" class="btn btn-sm btn-primary mr-2"><i class="fe fe-file-text"></i> {{'export'|trans({},'actions')}}</a>
                     <a href="{{ path('student_edit', {'id': student.id}) }}" class="btn btn-sm btn-warning mr-2"><i class="fe fe-edit"></i> {{'edit'|trans({},'actions')}}</a>
                     {{ include('student/_delete_form.html.twig') }}
@@ -55,6 +55,10 @@
                                     <td>{{ student.cne }}</td>
                                 </tr>
                                 <tr>
+                                    <th>{{ 'Study level'|trans }}</th>
+                                    <td>{{ student.studyLevel }}</td>
+                                </tr>
+                                <tr>
                                     <th>{{ 'Birth place'|trans }}</th>
                                     <td>{{ student.birthPlace }}</td>
                                 </tr>
@@ -67,16 +71,16 @@
                                     <td>{{ student.stopDate ? student.stopDate|date('Y-m-d') : '' }}</td>
                                 </tr>
                                 <tr>
-                                    <th>{{ 'Comments'|trans }}</th>
-                                    <td>{{ student.comments }}</td>
-                                </tr>
-                                <tr>
                                     <th>{{ 'CreatedAt'|trans }}</th>
                                     <td>{{ student.createdAt ? student.createdAt|date('Y-m-d H:i:s') : '' }}</td>
                                 </tr>
                                 <tr>
                                     <th>{{ 'UpdatedAt'|trans }}</th>
                                     <td>{{ student.updatedAt ? student.updatedAt|date('Y-m-d H:i:s') : '' }}</td>
+                                </tr>
+                                <tr>
+                                    <th>{{ 'Comments'|trans }}</th>
+                                    <td>{{ student.comments }}</td>
                                 </tr>
                                 </tbody>
                             </table>
