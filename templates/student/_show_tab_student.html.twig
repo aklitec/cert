@@ -1,0 +1,48 @@
+{% trans_default_domain 'student' %}
+
+<div class="table-responsive">
+    <table class="table card-table table-striped table-vcenter">
+        <tbody>
+        <tr>
+            <th>{{ 'Code'|trans }}</th>
+            <td>{{ student.code }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'Name'|trans }}</th>
+            <td>{{ student.firstName ~ ' ' ~ student.lastName }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'Cne'|trans }}</th>
+            <td>{{ student.cne }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'Study level'|trans }}</th>
+            <td>{{ student.studyLevel }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'Birth place'|trans }}</th>
+            <td>{{ student.birthPlace }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'Birth date'|trans }}</th>
+            <td>{{ student.birthDate ? student.birthDate|date('Y-m-d') : '' }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'Stop date'|trans }}</th>
+            <td>{{ student.stopDate ? student.stopDate|date('Y-m-d') : '' }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'CreatedAt'|trans }}</th>
+            <td>{{ student.createdAt ? student.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'UpdatedAt'|trans }}</th>
+            <td>{{ student.updatedAt ? student.updatedAt|date('Y-m-d H:i:s') : '' }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'Comments'|trans }}</th>
+            <td>{{ student.comments }}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

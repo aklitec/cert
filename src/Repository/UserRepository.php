@@ -29,6 +29,16 @@ class UserRepository extends ServiceEntityRepository
             ->getOneOrNullResult();
     }
 
+
+    public function latestConnected($limit = 10)
+    {
+        return $this->createQueryBuilder('u')
+            ->orderBy('u.lastLogin', 'DESC')
+            ->setMaxResults($limit)
+            ->getQuery()
+            ->getResult();
+    }
+
 //    /**
 //     * @return User[] Returns an array of User objects
 //     */

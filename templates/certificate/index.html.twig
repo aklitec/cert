@@ -1,0 +1,89 @@
+{% extends 'layout.html.twig' %}
+
+{% trans_default_domain 'certificate' %}
+
+{% block title %} {{ 'certificate.index.title' | trans }} {% endblock %}
+
+{% block pageHeader %}
+    <div class="page-header">
+        <h1 class="page-title">
+            {{ 'certificate.index.title' | trans }}
+        </h1>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="row col-12">
+
+        <!-- List card -->
+        <div class="card">
+
+            <div class="card-header">
+                <h3 class="card-title">{{ 'certificate.index.title' | trans }}</h3>
+                <div class="card-options">
+                    <!-- card options -->
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="table-responsive">
+
+                    <table class="table card-table table-striped table-vcenter">
+                        <tbody>
+                        {% for cert in certificates %}
+                            {# Generate certificate serial number by year #}
+                            {% if "now"|date("m") > 9 %}
+                                {% set serial_number = "now"|date("Y") ~'/'~ "now"|date_modify("+1 year")| date("Y") ~'/'~ '%04d'|format(cert.number) %}
+                            {% else %}
+                                {% set serial_number = "now"|date_modify("-1 year")|date("Y") ~'/'~ "now"|date("Y") ~'/'~ '%04d'|format(cert.number) %}
+                            {% endif %}
+
+                            <tr>
+                                <td>
+                                    <div class="small text-muted">{{ 'student' | trans }}</div>
+                                    <div>{{ cert.student }}</div>
+                                </td>
+                                <td>
+                                    <div class="small text-muted">{{ 'number' | trans }}</div>
+                                    <div>{{ serial_number }}</div>
+                                </td>
+                                <td>
+                                    <div class="small text-muted">{{ 'createdAt' | trans }}</div>
+                                    <div>{{ cert.createdAt |  date('d/m/Y H:i') }}</div>
+                                </td>
+                                <td>
+                                    <div class="small text-muted">{{ 'createdBy' | trans }}</div>
+                                    <div>
+                                        <b>{{ cert.createdBy }}</b>
+                                        (
+                                        {% for role in cert.createdBy.roles %}
+                                            <small><span class="badge badge-default">{{ role |split('_', 2)|last }}</span></small>
+                                        {% endfor %}
+                                        )
+                                    </div>
+                                </td>
+                                <td>
+                                    <a href="{{ path('certificate_show', {'id': cert.id}) }}" class="btn btn-sm btn-outline-dark"><i class="fe fe-eye"></i> {{'show'|trans({},'actions')}}</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            {% if certificates.haveToPaginate %}
+            <div class="card-footer text-right">
+                {{
+                    pagerfanta(certificates, 'twitter_bootstrap4_translated', {
+                        routeName: 'certificate_index_paginated',
+                        routeParams: app.request.query.all
+                    })
+                }}
+            </div>
+            {% endif %}
+
+        </div>
+    </div>
+{% endblock %}

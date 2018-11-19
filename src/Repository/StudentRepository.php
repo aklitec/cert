@@ -87,7 +87,24 @@ class StudentRepository extends ServiceEntityRepository
         });
     }
 
+    public function latest($limit = 10)
+    {
+        return $this->createQueryBuilder('s')
+            ->andWhere('s.deleted = 0')
+            ->orderBy('s.id', 'DESC')
+            ->setMaxResults($limit)
+            ->getQuery()
+            ->getResult();
+    }
     /*
+    public function count()
+    {
+        return $this->createQueryBuilder('s')
+            ->select('count(s.id)')
+            ->andWhere('s.deleted = 0')
+            ->getQuery()
+            ->getSingleScalarResult();
+    }
     public function findByExampleField($value)
     {
         return $this->createQueryBuilder('s')

@@ -1,8 +1,11 @@
 <component name="ProjectDictionaryState">
   <dictionary name="karim">
     <words>
+      <w>inversed</w>
       <w>nullable</w>
       <w>paginator</w>
+      <w>wkhtmltoimage</w>
+      <w>wkhtmltopdf</w>
     </words>
   </dictionary>
 </component>

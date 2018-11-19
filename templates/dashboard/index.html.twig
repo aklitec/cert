@@ -1,0 +1,32 @@
+{% extends 'layout.html.twig' %}
+
+{% trans_default_domain 'dashboard' %}
+
+{% block title %} {{ 'Dashboard' | trans }} | {{ parent() }}{% endblock %}
+
+{% block pageHeader %}
+    <div class="page-header">
+        <h1 class="page-title">
+            {{ 'Dashboard' | trans }}
+        </h1>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+    {% include 'dashboard/_summary.html.twig' %}
+
+    {% include 'dashboard/_recent.html.twig' %}
+
+    <br><br>
+    <div class="row col-8 offset-2">
+        <div class="card">
+            <div class="card-body">
+                {{ 'Library Content ...' | trans }}
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+{% endblock %}

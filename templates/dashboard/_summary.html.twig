@@ -1,0 +1,32 @@
+{% trans_default_domain 'dashboard' %}
+
+<div class="row col-12">
+
+    <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card">
+            <div class="card-body p-3 text-center">
+                <div class="h1 mt-2">{{ students.count }}</div>
+                <div class="text-muted mb-4">{{ 'Student' | trans }}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card">
+            <div class="card-body p-3 text-center">
+                <div class="h1 mt-2">{{ certificates.count }}</div>
+                <div class="text-muted mb-4">{{ 'Certificates' | trans }}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card">
+            <div class="card-body p-3 text-center">
+                <div class="h1 mt-2">{{ users.count }}</div>
+                <div class="text-muted mb-4">{{ 'Users' | trans }}</div>
+            </div>
+        </div>
+    </div>
+
+</div>

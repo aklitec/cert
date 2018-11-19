@@ -4,8 +4,8 @@ namespace App\Security;
 
 use App\Entity\User;
 use Doctrine\ORM\EntityManagerInterface;
-use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Routing\RouterInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
@@ -19,11 +19,6 @@ use Symfony\Component\Security\Csrf\CsrfToken;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Symfony\Component\Security\Guard\AbstractGuardAuthenticator;
 use Symfony\Component\Security\Http\Util\TargetPathTrait;
-use Symfony\Component\Routing\Annotation\Route;
-
-/**
- * @Route("/student", name="student")
- */
 
 class AppCustomAuthenticator extends AbstractGuardAuthenticator
 {
@@ -33,10 +28,6 @@ class AppCustomAuthenticator extends AbstractGuardAuthenticator
     private $router;
     private $csrfTokenManager;
     private $passwordEncoder;
-
-
-
-    use TargetPathTrait;
 
 
     public function __construct(EntityManagerInterface $entityManager, RouterInterface $router, CsrfTokenManagerInterface $csrfTokenManager, UserPasswordEncoderInterface $passwordEncoder)
@@ -71,19 +62,19 @@ class AppCustomAuthenticator extends AbstractGuardAuthenticator
     public function getUser($credentials, UserProviderInterface $userProvider)
     {
 
-            $token = new CsrfToken('authenticate', $credentials['csrf_token']);
-            if (!$this->csrfTokenManager->isTokenValid($token)) {
-                throw new InvalidCsrfTokenException();
-            }
+        $token = new CsrfToken('authenticate', $credentials['csrf_token']);
+        if (!$this->csrfTokenManager->isTokenValid($token)) {
+            throw new InvalidCsrfTokenException();
+        }
 
-            $user = $this->entityManager->getRepository(User::class)->findOneBy(['email' => $credentials['email']]);
+        $user = $this->entityManager->getRepository(User::class)->findOneBy(['email' => $credentials['email']]);
 
-            if (!$user) {
-                // fail authentication with a custom error
-                throw new CustomUserMessageAuthenticationException('Email could not be found.');
-            }
+        if (!$user) {
+            // fail authentication with a custom error
+            throw new CustomUserMessageAuthenticationException('Email could not be found.');
+        }
 
-            return $user;
+        return $user;
     }
 
     public function checkCredentials($credentials, UserInterface $user)
@@ -101,9 +92,9 @@ class AppCustomAuthenticator extends AbstractGuardAuthenticator
 
     public function onAuthenticationSuccess(Request $request, TokenInterface $token, $providerKey)
     {
-       /* if ($targetPath = $this->getTargetPath($request->getSession(), $providerKey)) {
-            return new RedirectResponse($targetPath);
-        }*/
+        /* if ($targetPath = $this->getTargetPath($request->getSession(), $providerKey)) {
+             return new RedirectResponse($targetPath);
+         }*/
 
         return $this->router->generate('student');
     }

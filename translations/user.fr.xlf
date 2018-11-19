@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+
+            <!-- Menus -->
+            <trans-unit id="student.index.title">
+                <source>student.index.title</source>
+                <target>Liste des étudiants</target>
+            </trans-unit>
+            <trans-unit id="student.new.title">
+                <source>student.new.title</source>
+                <target>Ajouter un étudiant</target>
+            </trans-unit>
+            <trans-unit id="student.edit.title">
+                <source>student.edit.title</source>
+                <target>Editer un étudiant</target>
+            </trans-unit>
+
+            <!-- Forms -->
+            <trans-unit id="profile.show.username">
+                <source>profile.show.username</source>
+                <target>Nom d'utilisateur</target>
+            </trans-unit>
+            <trans-unit id="profile.show.email">
+                <source>profile.show.email</source>
+                <target>Adresse e-mail</target>
+            </trans-unit>
+            <trans-unit id="profile">
+                <source>profile</source>
+                <target>Profil</target>
+            </trans-unit>
+            <trans-unit id="activities">
+                <source>activities</source>
+                <target>Activités</target>
+            </trans-unit>
+            <trans-unit id="change_password">
+                <source>change_password</source>
+                <target>changer le mot de passe</target>
+            </trans-unit>
+            <trans-unit id="profile.show.roles">
+                <source>profile.show.roles</source>
+                <target>Rôles</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

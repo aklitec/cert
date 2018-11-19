@@ -1,0 +1,60 @@
+{% trans_default_domain 'certificate' %}
+
+<div class="table-responsive">
+    <table class="table card-table table-striped table-vcenter">
+
+        <tbody>
+
+        <tr>
+            <td colspan="5">
+                <div class="alert alert-heading mb-0 text-body">
+                    <h4>{{ 'last_cert_per_user' | trans }}</h4>
+                </div>
+            </td>
+        </tr>
+
+        {% for cert in certificates %}
+            <tr>
+                <td>
+                    <div class="avatar d-block">
+                        <i class="fe fe-printer"></i>
+                    </div>
+                </td>
+                <td>
+                    {# Generate certificate serial number by year #}
+                    {% if "now"|date("m") > 9 %}
+                        {% set serial_number = "now"|date("Y") ~'/'~ "now"|date_modify("+1 year")| date("Y") ~'/'~ '%04d'|format(cert.number) %}
+                    {% else %}
+                        {% set serial_number = "now"|date_modify("-1 year")|date("Y") ~'/'~ "now"|date("Y") ~'/'~ '%04d'|format(cert.number) %}
+                    {% endif %}
+                    <div class="small text-muted">{{ 'number' | trans }}</div>
+                    <div>{{ serial_number }}</div>
+                </td>
+                <td>
+                    <div class="small text-muted">{{ 'createdAt' | trans }}</div>
+                    <div>{{ cert.createdAt |  date('d/m/Y H:i') }}</div>
+                </td>
+                <td>
+                    <div class="small text-muted">{{ 'createdBy' | trans }}</div>
+                    <div>
+                        <b>{{ cert.createdBy }}</b>
+                        (
+                        {% for role in cert.createdBy.roles %}
+                            <small><span class="badge badge-default">{{ role |split('_', 2)|last }}</span></small>
+                        {% endfor %}
+                        )
+                    </div>
+                </td>
+                <td class="text-right">
+                    <a href="">
+                        <div class="mx-auto chart-circle chart-circle-xs">
+                            <div class="chart-circle-value"><i class="fe fe-eye"></i></div>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+    </table>
+</div>

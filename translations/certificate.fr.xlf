@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+
+            <!-- Menus -->
+            <trans-unit id="certificate.index.title">
+                <source>certificate.index.title</source>
+                <target>Liste des certificats</target>
+            </trans-unit>
+            <trans-unit id="certificate.show.title">
+                <source>certificate.show.title</source>
+                <target>Afficher un certificat</target>
+            </trans-unit>
+
+            <!-- Forms -->
+            <trans-unit id="certificate">
+                <source>certificate</source>
+                <target>Certificat</target>
+            </trans-unit>
+            <trans-unit id="student">
+                <source>student</source>
+                <target>Étudiant</target>
+            </trans-unit>
+            <trans-unit id="code">
+                <source>code</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="number">
+                <source>number</source>
+                <target>Numéro de série</target>
+            </trans-unit>
+            <trans-unit id="createdAt">
+                <source>createdAt</source>
+                <target>Imprimé à</target>
+            </trans-unit>
+            <trans-unit id="createdBy">
+                <source>createdBy</source>
+                <target>Imprimé par</target>
+            </trans-unit>
+            <trans-unit id="Comments">
+                <source>Comments</source>
+                <target>Commentaires</target>
+            </trans-unit>
+            <trans-unit id="last_cert_per_user">
+                <source>last_cert_per_user</source>
+                <target>Liste des derniers certificats imprimés pour cet étudiant</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

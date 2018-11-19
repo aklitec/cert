@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Student;
 use App\Form\StudentType;
+use App\Repository\CertificateRepository;
 use App\Repository\StudentRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -59,9 +60,16 @@ class StudentController extends AbstractController
      * @param Student $student
      * @return Response
      */
-    public function show(Student $student): Response
+    public function show(Student $student, CertificateRepository $cert_repository): Response
     {
-        return $this->render('student/show.html.twig', ['student' => $student]);
+        // get last 20 certificates
+        $certificates = $cert_repository->findBy(
+            array('student' => $student),
+            array('id' => 'DESC'),
+            20
+        );
+
+        return $this->render('student/show.html.twig', ['student' => $student, 'certificates' => $certificates]);
     }
 
     /**

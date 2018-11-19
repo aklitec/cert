@@ -1,0 +1,60 @@
+<div class="row col-12">
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">{{ 'Latest Students' }}</h4>
+            </div>
+            <table class="table card-table">
+                <tbody>
+                {% for student in students.latest %}
+                    <tr>
+                        <td width="1"><i class="fa fa-user-circle text-muted"></i></td>
+                        <td>{{ student }}</td>
+                        <td class="text-right"><span class="text-muted">{{ student.studyLevel }}</span></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">{{ 'Latest printed certificates' }}</h4>
+            </div>
+            <table class="table card-table">
+                <tbody>
+                {% for certificate in certificates.latest %}
+                    <tr>
+                        <td width="1"><i class="fa fa-user-circle text-muted"></i></td>
+                        <td>{{ certificate | raw }}</td>
+                        <td class="text-right"><span class="text-muted">{{ certificate.createdAt | date('d/m/Y') }}</span></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">{{ 'Latest Connected users' }}</h4>
+            </div>
+            <table class="table card-table">
+                <tbody>
+                {% for user in users.latest %}
+                    <tr>
+                        <td width="1"><i class="fa fa-user text-muted"></i></td>
+                        <td>{{ user }}</td>
+                        <td class="text-right"><span class="text-muted">{{ user.lastLogin | date('d/m/Y H:i') }}</span></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>

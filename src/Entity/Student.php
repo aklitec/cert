@@ -2,12 +2,8 @@
 
 namespace App\Entity;
 
-use ApiPlatform\Core\Annotation\ApiFilter;
-use ApiPlatform\Core\Annotation\ApiResource;
-use ApiPlatform\Core\Annotation\ApiSubresource;
-use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\DateFilter;
-use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter;
-use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
@@ -120,9 +116,18 @@ class Student
      */
     private $deletedBy;
 
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Certificate", mappedBy="student", orphanRemoval=true)
+     */
+    private $certificates;
+
 
     // ========================= Getters & Setters ========================= \\
 
+    public function __construct()
+    {
+        $this->certificates = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -163,6 +168,11 @@ class Student
         $this->lastName = $lastName;
 
         return $this;
+    }
+
+    public function getName(): ?string
+    {
+        return $this->lastName . ' ' . $this->firstName;
     }
 
     public function getCne(): ?string
@@ -237,18 +247,6 @@ class Student
         return $this;
     }
 
-    public function getCreatedAt(): ?\DateTimeInterface
-    {
-        return $this->createdAt;
-    }
-
-    public function setCreatedAt(\DateTimeInterface $createdAt): self
-    {
-        $this->createdAt = $createdAt;
-
-        return $this;
-    }
-
     public function getUpdatedAt(): ?\DateTimeInterface
     {
         return $this->updatedAt;
@@ -297,8 +295,50 @@ class Student
         return $this;
     }
 
-    // ========================= Special methods =========================== \\
+    /**
+     * @return Collection|Certificate[]
+     */
+    public function getCertificates(): Collection
+    {
+        return $this->certificates;
+    }
 
+    public function addCertificate(Certificate $certificate): self
+    {
+        if (!$this->certificates->contains($certificate)) {
+            $this->certificates[] = $certificate;
+            $certificate->setStudent($this);
+        }
+
+        return $this;
+    }
+
+    public function removeCertificate(Certificate $certificate): self
+    {
+        if ($this->certificates->contains($certificate)) {
+            $this->certificates->removeElement($certificate);
+            // set the owning side to null (unless already changed)
+            if ($certificate->getStudent() === $this) {
+                $certificate->setStudent(null);
+            }
+        }
+
+        return $this;
+    }
+
+    public function getCreatedAt(): ?\DateTimeInterface
+    {
+        return $this->createdAt;
+    }
+
+    public function setCreatedAt(\DateTimeInterface $createdAt): self
+    {
+        $this->createdAt = $createdAt;
+
+        return $this;
+    }
+
+    // ========================= Special methods =========================== \\
 
     /**
      * @ORM\PrePersist

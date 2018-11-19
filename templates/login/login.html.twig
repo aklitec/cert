@@ -31,7 +31,7 @@
 <div class="limiter">
     <div class="container-login100">
         <div class="wrap-login100 p-t-50 p-b-90">
-            <form class="login100-form validate-form flex-sb flex-w" action="{{ path('login')}}" method="POST">
+            <form class="login100-form validate-form flex-sb flex-w" action="{{ path('dashboard')}}" method="POST">
 					<span class="login100-form-title p-b-51">
 						Login
 					</span>
@@ -39,7 +39,7 @@
                     <span class="alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</span>
                 {% endif %}
                     <div class="wrap-input100 validate-input m-b-16" data-validate = "email is required">
-                    <input class="input100" type="text" name="_email" placeholder="Email" value="{{ last_username }}">
+                    <input class="input100" type="text" name="_email" placeholder="Email" value="">
                     <span class="focus-input100"></span>
                 </div>
 

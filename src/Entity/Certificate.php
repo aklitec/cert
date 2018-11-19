@@ -2,15 +2,20 @@
 
 namespace App\Entity;
 
-use ApiPlatform\Core\Annotation\ApiResource;
-use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\CertificateRepository")
+ * @ORM\HasLifecycleCallbacks
  */
 class Certificate
 {
+    /**
+     * configuration options
+     */
+    public const NUM_ITEMS = 25;
+
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
@@ -33,17 +38,26 @@ class Certificate
     private $number;
 
     /**
+     * @ORM\Column(type="text", nullable=true)
+     */
+    private $comments;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Student", inversedBy="certificates")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $student;
+
+    /**
      * @var \DateTime
      * @ORM\Column(type="datetime")
-     * @Assert\NotBlank()
      */
     private $createdAt;
 
     /**
-     * @var Student the user that created this certificate
-     * @ORM\ManyToOne(targetEntity="App\Entity\Student")
+     * @var User the user that created this certificate
+     * @ORM\ManyToOne(targetEntity="App\Entity\User")
      * @ORM\JoinColumn(nullable=false)
-     * @Assert\NotBlank()
      */
     private $createdBy;
 
@@ -92,15 +106,62 @@ class Certificate
         return $this;
     }
 
-    public function getCreatedBy(): ?Student
+    public function getCreatedBy(): ?User
     {
         return $this->createdBy;
     }
 
-    public function setCreatedBy(?Student $createdBy): self
+    public function setCreatedBy(?User $createdBy): self
     {
         $this->createdBy = $createdBy;
 
         return $this;
     }
+
+    public function getComments(): ?string
+    {
+        return $this->comments;
+    }
+
+    public function setComments(?string $comments): self
+    {
+        $this->comments = $comments;
+
+        return $this;
+    }
+
+    public function getStudent(): ?Student
+    {
+        return $this->student;
+    }
+
+    public function setStudent(?Student $student): self
+    {
+        $this->student = $student;
+
+        return $this;
+    }
+
+
+    // ========================= Special methods =========================== \\
+
+    /**
+     * @ORM\PrePersist
+     * @ORM\PreUpdate
+     */
+    public function updatedTimestamps(): void
+    {
+        $dateTimeNow = new \DateTime('now');
+        if ($this->getCreatedAt() === null) {
+            $this->setCreatedAt($dateTimeNow);
+        }
+    }
+
+    public function __toString()
+    {
+        return (string) $this->createdAt->format('Y') . '/' . str_pad($this->number, 4, '0', STR_PAD_LEFT);
+    }
+
+
 }
+

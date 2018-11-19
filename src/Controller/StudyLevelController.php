@@ -17,6 +17,8 @@ class StudyLevelController extends AbstractController
 {
     /**
      * @Route("/", name="study_level_index", methods="GET")
+     * @param StudyLevelRepository $studyLevelRepository
+     * @return Response
      */
     public function index(StudyLevelRepository $studyLevelRepository): Response
     {
@@ -25,6 +27,8 @@ class StudyLevelController extends AbstractController
 
     /**
      * @Route("/new", name="study_level_new", methods="GET|POST")
+     * @param Request $request
+     * @return Response
      */
     public function new(Request $request): Response
     {

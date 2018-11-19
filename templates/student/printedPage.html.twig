@@ -2,12 +2,16 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <style type="text/css">
-        *{
+        * {
             margin: 0;
             padding: 0;
-            border:0;
+            border: 0;
         }
-        body { font-family: DejaVu Sans, sans-serif; }
+
+        body {
+            font-family: DejaVu Sans, sans-serif;
+        }
+
         .header {
 
             width: 100%;
@@ -15,10 +19,9 @@
             height: 30%;
         }
 
-        ul{
+        ul {
             list-style-type: none;
         }
-
 
         .mainPage {
 
@@ -29,7 +32,7 @@
         }
 
         /*=============== HEADER STYLES========================*/
-        .right{
+        .right {
 
             width: 30%;
 
@@ -54,8 +57,6 @@
 
         }
 
-
-
         .Middle {
 
             width: 42%;
@@ -66,7 +67,8 @@
             height: auto;
             margin-bottom: 13px;
         }
-        .Middle>img{
+
+        .Middle > img {
             height: 70%;
             width: auto;
         }
@@ -76,6 +78,7 @@
             width: 30%;
 
         }
+
         .left > ul {
 
             background-color: red;
@@ -85,6 +88,7 @@
             height: 53%;
 
         }
+
         .leftChild {
 
             display: flex;
@@ -97,6 +101,7 @@
             padding-top: 2%;
 
         }
+
         .leftChild > ul > li {
 
             margin-bottom: 2.5%;
@@ -110,6 +115,7 @@
             padding: 2%;
 
         }
+
         .mainTitle {
             text-align: center;
             width: 37%;
@@ -126,6 +132,7 @@
             margin-bottom: 30px;
 
         }
+
         .mainBody > ul > li {
 
             margin-bottom: 15px;
@@ -137,6 +144,7 @@
             margin-top: 1%;
 
         }
+
         /*======================== FOOTER STYLE =====================*/
 
         .footer {
@@ -157,6 +165,7 @@
             margin-right: 55%;
 
         }
+
         .footer > div > p:first-child {
 
             margin-left: 16%;
@@ -170,55 +179,55 @@
 </head>
 <body dir="rtl">
 <div class="mainPage">
-       <header class="header">
-           <div class="right">
-               <div class="rightChild">
-                   <ul >
-                       <li> الجماعة : أكليم (البلدية)</li>
-                       <li>المؤسسة : إبن بطوطة </li>
-                       <li>الهاتف :</li>
-                   </ul>
-               </div>
-           </div>
-           <div class="Middle">
-               <img src="{{asset('/app/img/logo_men.png')}}">
-           </div>
-           <div class="left">
-               <div class="leftChild">
-                   <ul>
-                       <li> الاكادمية الجهوية للتربية والتكوين</li>
-                       <li><span></span>لجهة : الشرق</li>
-                       <li>المديرية الاقليمية : بإقليم : بركان </li>
-                   </ul>
-               </div>
-           </div>
-       </header>
-       <div class="main">
-           <div class="mainTitle">
-               <h3>شهادة مدرسية رقم : 2017/2018/481</h3>
-           </div>
-           <div class="mainBody">
-               <h3>يشهد الموقع(ة)أسفله</h3>
-               <ul>
-                   <li>أن التلميذ(ة) الاسم والنسب : </li>
-                   <li>المولود(ة) في : </li>
-                   <li>بتاريخ : </li>
-                   <li>رمز التلميذ(ة) : </li>
-               </ul>
-           </div>
-           <div class="mainFooter">
-               <h3>ت/يتابع دراسته(ها) بهذه المؤسسة بالمستوى : </h3>
-               <p>ملاحظات : سلمت له ⟨لها⟩ هذه الشهادة من برنامج "مسار" لغرض إداري</p>
-           </div>
+    <header class="header">
+        <div class="right">
+            <div class="rightChild">
+                <ul>
+                    <li> الجماعة : أكليم (البلدية)</li>
+                    <li>المؤسسة : إبن بطوطة</li>
+                    <li>الهاتف :</li>
+                </ul>
+            </div>
+        </div>
+        <div class="Middle">
+            <img src="{{ asset('/app/img/logo_men.png') }}">
+        </div>
+        <div class="left">
+            <div class="leftChild">
+                <ul>
+                    <li> الاكادمية الجهوية للتربية والتكوين</li>
+                    <li><span></span>لجهة : الشرق</li>
+                    <li>المديرية الاقليمية : بإقليم : بركان</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="mainTitle">
+            <h3>شهادة مدرسية رقم : 2017/2018/481</h3>
+        </div>
+        <div class="mainBody">
+            <h3>يشهد الموقع(ة)أسفله</h3>
+            <ul>
+                <li>أن التلميذ(ة) الاسم والنسب :</li>
+                <li>المولود(ة) في :</li>
+                <li>بتاريخ :</li>
+                <li>رمز التلميذ(ة) :</li>
+            </ul>
+        </div>
+        <div class="mainFooter">
+            <h3>ت/يتابع دراسته(ها) بهذه المؤسسة بالمستوى : </h3>
+            <p>ملاحظات : سلمت له ⟨لها⟩ هذه الشهادة من برنامج "مسار" لغرض إداري</p>
+        </div>
 
-       </div>
-       <div class="footer">
-           <p>حرر ب :................... في : </p>
-           <div>
-               <p>خاتم  وتوقيع الحارس العام / الناظر المسؤول عن المعلومات الواردة في الشهادة</p>
-               <p>خاتم وتوقيع رئيس الموؤسسة</p>
-           </div>
-       </div>
+    </div>
+    <div class="footer">
+        <p>حرر ب :................... في : </p>
+        <div>
+            <p>خاتم وتوقيع الحارس العام / الناظر المسؤول عن المعلومات الواردة في الشهادة</p>
+            <p>خاتم وتوقيع رئيس الموؤسسة</p>
+        </div>
+    </div>
 </div>
 </body>
 </html>
