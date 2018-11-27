@@ -56,6 +56,20 @@ class StudentController extends AbstractController
     }
 
     /**
+     * @Route("/{id}/printedpage", name="printedpage", methods="GET")
+     * @param Request $request
+     * @param Student $student
+     * @return Response
+     */
+    public function printedPage(Request $request,Student $student): Response
+    {
+
+        return $this->render('certificate/certificate.html.twig', [
+            'student' => $student,
+        ]);
+    }
+
+    /**
      * @Route("/{id}", name="student_show", methods="GET")
      * @param Student $student
      * @return Response
@@ -95,28 +109,28 @@ class StudentController extends AbstractController
         ]);
     }
 
-    /**
-     * @Route("/{id}/print", name="student_print", methods="GET|POST")
-     * @param Request $request
-     * @param Student $student
-     * @return Response
-     */
-    public function print(Request $request, Student $student): Response
-    {
-        $form = $this->createForm(StudentType::class, $student);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            $this->getDoctrine()->getManager()->flush();
-
-            return $this->redirectToRoute('student_show', ['id' => $student->getId()]);
-        }
-
-        return $this->render('student/print.html.twig', [
-            'student' => $student,
-            'form' => $form->createView(),
-        ]);
-    }
+//    /**
+//     * @Route("/{id}/print", name="student_print", methods="GET|POST")
+//     * @param Request $request
+//     * @param Student $student
+//     * @return Response
+//     */
+//    public function print(Request $request, Student $student): Response
+//    {
+//        $form = $this->createForm(StudentType::class, $student);
+//        $form->handleRequest($request);
+//
+//        if ($form->isSubmitted() && $form->isValid()) {
+//            $this->getDoctrine()->getManager()->flush();
+//
+//            return $this->redirectToRoute('student_show', ['id' => $student->getId()]);
+//        }
+//
+//        return $this->render('student/print.html.twig', [
+//            'student' => $student,
+//            'form' => $form->createView(),
+//        ]);
+//    }
 
     /**
      * @Route("/{id}", name="student_delete", methods="DELETE")

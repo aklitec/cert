@@ -73,6 +73,18 @@ class Student
     private $studyLevel;
 
     /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\StudyLevelOldRegime")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $studyLevelOldRegime;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\StudyLevelNewRegime")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $studyLevelNewRegime;
+
+    /**
      * @var \DateTime the date by which the student left the school
      * @ORM\Column(type="date", nullable=true)
      * @Assert\Date()
@@ -211,6 +223,7 @@ class Student
         return $this;
     }
 
+
     public function getStudyLevel(): ?StudyLevel
     {
         return $this->studyLevel;
@@ -222,6 +235,28 @@ class Student
 
         return $this;
     }
+
+    public function getStudyLevelOldRegime():?string
+    {
+        return $this->studyLevelOldRegime;
+    }
+
+    public function setStudyLevelOldRegime(?string $studyLevelOldRegime):self
+    {
+        $this->studyLevelOldRegime = $studyLevelOldRegime;
+        return $this;
+    }
+
+    public function getStudyLevelNewRegime():?string
+    {
+        return $this->studyLevelNewRegime;
+    }
+    public function setStudyLevelNewRegime(?string $studyLevelNewRegime):self
+    {
+        $this->studyLevelNewRegime = $studyLevelNewRegime;
+        return $this;
+    }
+
 
     public function getStopDate(): ?\DateTimeInterface
     {
