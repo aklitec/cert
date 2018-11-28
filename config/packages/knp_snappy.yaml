@@ -1,5 +1,5 @@
 knp_snappy:
-    process_timeout: 20
+    process_timeout: 30
     pdf:
         enabled:    true
         binary:     '%env(WKHTMLTOPDF_PATH)%'
