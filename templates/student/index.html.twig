@@ -80,7 +80,7 @@
                                 <td>{{ student.firstName ~ ' ' ~ student.lastName }}</td>
                                 <td>{{ student.cne }}</td>
                                 <td>{{ student.birthPlace }}</td>
-                                <td>{{ student.studyLevel.name }}</td>
+                                <td>{{ student.studyLevel }}</td>
                                 <td>{{ student.stopDate ? student.stopDate|date('Y-m-d') : '' }}</td>
                                 <td>
                                     <a href="{{ path('student_show', {'id': student.id}) }}" class="btn btn-sm btn-primary"><i class="fe fe-eye"></i> {{'show'|trans({},'actions')}}</a>

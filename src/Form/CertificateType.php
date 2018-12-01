@@ -12,8 +12,8 @@ class CertificateType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder
-            ->add('comments');
+      /*  $builder
+            ->add('comments');*/
     }
 
     public function configureOptions(OptionsResolver $resolver)

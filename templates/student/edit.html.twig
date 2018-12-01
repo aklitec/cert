@@ -45,7 +45,14 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">{{ form_row(form.studyLevel) }}</div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-check form-check-inline">
+                            {{ form_row(form.studyLevel) }}
+                        </div>
+                        <div class="form-check form-check-inline">
+                            {{ form_row(form.branch) }}
+                        </div>
+                    </div>
                     <div class="col-md-6 col-sm-12">{{ form_row(form.stopDate) }}</div>
                 </div>
 

@@ -66,23 +66,35 @@ class Student
      */
     private $birthDate;
 
+
+//    /**
+//     * @ORM\ManyToOne(targetEntity="App\Entity\StudyLevel")
+//     * @ORM\JoinColumn(nullable=false)
+//     */
+//
+//    private $studyLevel;
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\StudyLevel")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\Column(type="string")
+     * @ORM\Column(nullable=false)
      */
     private $studyLevel;
 
-    /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\StudyLevelOldRegime")
-     * @ORM\JoinColumn(nullable=false)
-     */
-    private $studyLevelOldRegime;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\StudyLevelNewRegime")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\Column(type="string",nullable=true)
      */
-    private $studyLevelNewRegime;
+    private $branch;
+//    /**
+//     * @ORM\ManyToOne(targetEntity="App\Entity\StudyLevelOldRegime")
+//     * @ORM\JoinColumn(nullable=false)
+//     */
+//    private $studyLevelOldRegime;
+//
+//    /**
+//     * @ORM\ManyToOne(targetEntity="App\Entity\StudyLevelNewRegime")
+//     * @ORM\JoinColumn(nullable=false)
+//     */
+//    private $studyLevelNewRegime;
 
     /**
      * @var \DateTime the date by which the student left the school
@@ -114,6 +126,7 @@ class Student
      * @ORM\Column(type="boolean")
      */
     private $deleted = 0;
+
 
     /**
      * @var \DateTime
@@ -224,19 +237,31 @@ class Student
     }
 
 
-    public function getStudyLevel(): ?StudyLevel
+    public function getStudyLevel(): ?string
     {
         return $this->studyLevel;
     }
 
-    public function setStudyLevel(?StudyLevel $studyLevel): self
+    public function setStudyLevel(?string $studyLevel): self
     {
         $this->studyLevel = $studyLevel;
 
         return $this;
     }
 
-    public function getStudyLevelOldRegime():?string
+
+    public function getBranch(): ?string
+    {
+        return $this->branch;
+    }
+
+    public function setBranch(?string $branch): self
+    {
+        $this->branch = $branch;
+
+        return $this;
+    }
+/*    public function getStudyLevelOldRegime():?string
     {
         return $this->studyLevelOldRegime;
     }
@@ -255,7 +280,7 @@ class Student
     {
         $this->studyLevelNewRegime = $studyLevelNewRegime;
         return $this;
-    }
+    }*/
 
 
     public function getStopDate(): ?\DateTimeInterface
@@ -305,6 +330,8 @@ class Student
 
         return $this;
     }
+
+
 
     public function getDeletedAt(): ?\DateTimeInterface
     {

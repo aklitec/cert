@@ -47,27 +47,14 @@
 
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div>
-                            <label>
-                                Study level
-                            </label>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="oldRegime">
-                                <label class="form-check-label" for="inlineRadio1">Old regime</label>
+                                {{ form_row(form.studyLevel) }}
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="NewRegime">
-                                <label class="form-check-label" for="inlineRadio2">New regime</label>
+                                {{ form_row(form.branch) }}
                             </div>
-                        </div>
-                        {% if node.field_checkbox.value == 'oldRegime' %}
-                        <div class="col-md-6 col-sm-12">{{ form_row(form.studyLevelOldRegime, { 'label' :  'Study level' }) }}</div>
-                        {% else %}
-                        <div class="col-md-6 col-sm-12">{{ form_row(form.studyLevelNewRegime, { 'label' :  'Study level' }) }}</div>
-                        {% endif %}
                     </div>
-
-                    {#<div class="col-md-6 col-sm-12">{{ form_row(form.studyLevel) }}</div>#}
+                        {#<div class="col-md-6 col-sm-12">{{ form_row(form.studyLevel) }}</div>#}
                     <div class="col-md-6 col-sm-12">{{ form_row(form.stopDate) }}</div>
                 </div>
 
