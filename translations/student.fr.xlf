@@ -50,6 +50,10 @@
                 <source>Study level</source>
                 <target>Niveau d'étude</target>
             </trans-unit>
+            <trans-unit id="Branch">
+                <source>Branch</source>
+                <target>Filière</target>
+            </trans-unit>
             <trans-unit id="Stop date">
                 <source>Stop date</source>
                 <target>Date d'arrêt</target>

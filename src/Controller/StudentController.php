@@ -55,19 +55,19 @@ class StudentController extends AbstractController
         ]);
     }
 
-    /**
-     * @Route("/{id}/printedpage", name="printedpage", methods="GET")
-     * @param Request $request
-     * @param Student $student
-     * @return Response
-     */
-    public function printedPage(Request $request,Student $student): Response
-    {
-
-        return $this->render('certificate/certificate.html.twig', [
-            'student' => $student,
-        ]);
-    }
+//    /**
+//     * @Route("/{id}/printedpage", name="printedpage", methods="GET")
+//     * @param Request $request
+//     * @param Student $student
+//     * @return Response
+//     */
+//    public function printedPage(Request $request,Student $student): Response
+//    {
+//
+//        return $this->render('certificate/certificate.html.twig', [
+//            'student' => $student,
+//        ]);
+//    }
 
     /**
      * @Route("/{id}", name="student_show", methods="GET")
